@@ -1,5 +1,7 @@
 # Flutter - Clean Architecture with State Management comparison
 
+![Build Status](https://github.com/guilherme-v/flutter-clean-architecture-example/actions/workflows/main.yaml/badge.svg)
+
 ![app](./art/app.png?raw=true)
 
 ## Goals
@@ -22,8 +24,8 @@
 An overview of the current state management libraries explored is presented below:
 
 | State Manager | Applied | Unit tests | Widget tests |
-|---------------|---------|:----------:|--------------|
-| Provider      | Yes     |    Yes     | In Progress  |
+| ------------- | ------- | :--------: | ------------ |
+| Provider      | Yes     |    Yes     | Yes          |
 | Riverpod      | Yes     |    Yes     | In Progress  |
 | Bloc          | Yes     |    Yes     | Yes          |
 | Cubit         | Yes     |    Yes     | Yes          |
